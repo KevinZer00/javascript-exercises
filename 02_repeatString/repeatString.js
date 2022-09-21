@@ -4,6 +4,8 @@ const repeatString = function(string, num) {
   {
     returnString = returnString += returnString;
   }
+  return returnString;
+}
 
 // Do not edit below this line
 module.exports = repeatString;
